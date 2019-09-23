@@ -21,4 +21,4 @@ const Numbers = () => {
        it any props needed by the child component*/}
     </div>
   );
-};
+};  
