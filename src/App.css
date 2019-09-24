@@ -1,22 +1,86 @@
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 40px;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+  margin-top: 25px;
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 2%;
+  font-size: 4.5rem;
+}
+
+.display-container {
+  width: 90%;
+  margin-left: 4%;
+}
+
+.operation-container {
+  display: flex;
+}
+
+.number-Class {
+  width: 65%;
+  margin: 6% 0 0 15%;
+}
+
+.operetors-Class {
+  width: 35%;
+  margin: 6% 8% 0 0;
+}
+
+.specials {
+  width: 90%;
+  margin-left: 10%;
+}
+
+.numbers {
+  width: 90%;
+  margin-left: 10%;
+}
+
+.operators {
+  width: 20%;
+  margin-right: 0;
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+  color: white;
+  font-size: 30px;
+  background:	#02144b;
+  box-shadow: 2px 2px #242528;
+}
+.button:hover {
+  background-color: NavajoWhite;
+  color: Peru;
+}
+
+.button:nth-child(10) {
+  width: 150px;
+  border-radius: 50px;
+}
+.operator {
+  background: #334d4d;
+}
+.special {
+  background: #002080;
+}
+.logo-container {
+  margin: 4% 5%;
+}
